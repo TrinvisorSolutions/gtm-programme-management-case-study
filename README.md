@@ -90,7 +90,6 @@ My current CV shows experience across integrated planning, workstream coordinati
 ├── case-studies.md
 ├── role-alignment.md
 ├── 30-60-90-plan.md
-├── application-note.md
 ├── assets/
 │   ├── dashboard-preview.png
 │   ├── operating-model.svg
@@ -110,4 +109,4 @@ My current CV shows experience across integrated planning, workstream coordinati
 
 ---
 
-**Important:** This is an independent role-alignment case study. It does not represent any employer, technology vendor or client programme, and contains no confidential information.
+**Important:** This is an independent role-alignment case study. It does not represent the target organisation, Microsoft or any client programme, and contains no confidential information.
