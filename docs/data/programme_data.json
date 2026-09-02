@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "title": "EMEA GTM Programme Control Centre",
+    "subtitle": "Illustrative enterprise technology customer-engagement programme",
+    "owner": "Jean Mahabir",
+    "disclaimer": "Illustrative sample data only. No employer or client confidential information."
+  },
+  "kpis": {
+    "milestones_on_track": 82,
+    "active_customer_engagements": 14,
+    "markets": 6,
+    "high_priority_dependencies": 4,
+    "content_assets_in_flight": 11,
+    "stakeholder_actions_overdue": 3
+  },
+  "workstreams": [
+    {
+      "name": "Customer Sourcing & Qualification",
+      "owner": "Customer Engagement",
+      "status": "Green",
+      "progress": 88,
+      "next": "Confirm next EMEA reference cohort",
+      "dependency": "Regional nominations"
+    },
+    {
+      "name": "Peer-to-Peer Engagement",
+      "owner": "Programme Delivery",
+      "status": "Amber",
+      "progress": 72,
+      "next": "Secure executive availability",
+      "dependency": "Customer calendars"
+    },
+    {
+      "name": "Content & Approval Pipeline",
+      "owner": "Content / Advocacy",
+      "status": "Amber",
+      "progress": 64,
+      "next": "Clear legal review queue",
+      "dependency": "Customer approval SLA"
+    },
+    {
+      "name": "Sales Enablement Activation",
+      "owner": "GTM / Sales",
+      "status": "Green",
+      "progress": 79,
+      "next": "Publish proof pack to field teams",
+      "dependency": "Final assets"
+    },
+    {
+      "name": "Insights & KPI Reporting",
+      "owner": "Data / Programme",
+      "status": "Green",
+      "progress": 91,
+      "next": "Refresh regional adoption view",
+      "dependency": "Source-system updates"
+    },
+    {
+      "name": "Governance & Operations",
+      "owner": "Programme Manager",
+      "status": "Green",
+      "progress": 86,
+      "next": "Close ageing actions",
+      "dependency": "Workstream owners"
+    }
+  ],
+  "risks": [
+    {
+      "id": "R-01",
+      "type": "Risk",
+      "item": "Customer approvals extend beyond planned cycle time",
+      "impact": "High",
+      "status": "Amber",
+      "owner": "Programme Manager",
+      "mitigation": "Introduce approval SLA, pre-brief approvers and escalate ageing items at weekly governance."
+    },
+    {
+      "id": "D-02",
+      "type": "Dependency",
+      "item": "Peer sessions depend on senior-customer availability",
+      "impact": "High",
+      "status": "Amber",
+      "owner": "Customer Engagement",
+      "mitigation": "Maintain backup advocates and secure availability windows before matching."
+    },
+    {
+      "id": "I-03",
+      "type": "Issue",
+      "item": "Regional KPI definitions are inconsistent",
+      "impact": "Medium",
+      "status": "Green",
+      "owner": "Data Lead",
+      "mitigation": "Publish metric dictionary and validate source fields before dashboard refresh."
+    },
+    {
+      "id": "D-04",
+      "type": "Dependency",
+      "item": "Sales activation depends on final approved customer proof",
+      "impact": "High",
+      "status": "Amber",
+      "owner": "GTM Lead",
+      "mitigation": "Stage reusable proof points and sequence activation by approved asset."
+    },
+    {
+      "id": "R-05",
+      "type": "Risk",
+      "item": "Multiple regional launches create resource contention",
+      "impact": "Medium",
+      "status": "Green",
+      "owner": "Programme Manager",
+      "mitigation": "Capacity-plan two sprints ahead and agree priority rules with stakeholders."
+    }
+  ],
+  "milestones": [
+    {
+      "name": "Reference cohort locked",
+      "date": "Week 2",
+      "status": "Done"
+    },
+    {
+      "name": "First peer sessions delivered",
+      "date": "Week 4",
+      "status": "Done"
+    },
+    {
+      "name": "Advocacy assets approved",
+      "date": "Week 6",
+      "status": "In progress"
+    },
+    {
+      "name": "Sales activation wave 1",
+      "date": "Week 8",
+      "status": "In progress"
+    },
+    {
+      "name": "EMEA insight review",
+      "date": "Week 10",
+      "status": "Planned"
+    },
+    {
+      "name": "Optimisation sprint",
+      "date": "Week 12",
+      "status": "Planned"
+    }
+  ]
+}

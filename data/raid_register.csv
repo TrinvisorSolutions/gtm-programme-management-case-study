@@ -1,0 +1,6 @@
+ID,Type,Item,Impact,Status,Owner,Mitigation
+R-01,Risk,Customer approvals extend beyond planned cycle time,High,Amber,Programme Manager,"Introduce approval SLA, pre-brief approvers and escalate ageing items at weekly governance."
+D-02,Dependency,Peer sessions depend on senior-customer availability,High,Amber,Customer Engagement,Maintain backup advocates and secure availability windows before matching.
+I-03,Issue,Regional KPI definitions are inconsistent,Medium,Green,Data Lead,Publish metric dictionary and validate source fields before dashboard refresh.
+D-04,Dependency,Sales activation depends on final approved customer proof,High,Amber,GTM Lead,Stage reusable proof points and sequence activation by approved asset.
+R-05,Risk,Multiple regional launches create resource contention,Medium,Green,Programme Manager,Capacity-plan two sprints ahead and agree priority rules with stakeholders.
