@@ -2,6 +2,10 @@
 
 **Jean Mahabir - Programme & Transformation Delivery Leader**
 
+### Live demo
+
+[Open the interactive GTM Programme Control Centre](https://trinvisorsolutions.github.io/gtm-programme-management-case-study/)
+
 A concise, practical demonstration of how I would structure and run a multi-workstream **EMEA go-to-market / customer-engagement programme** in a B2B enterprise-technology environment.
 
 > **Purpose:** show the connection between my programme-management experience, technical capability and the requirements of a GTM Program Manager role - without using confidential client or company data.
@@ -23,32 +27,17 @@ A concise, practical demonstration of how I would structure and run a multi-work
 
 ## Programme operating model
 
-```mermaid
-flowchart LR
-    A[Business / GTM Objective] --> B[Customer Sourcing]
-    B --> C[Qualify + Consent]
-    C --> D[Peer Match / Engagement]
-    D --> E[Capture Insight + Story]
-    E --> F[Customer / Legal Approval]
-    F --> G[Sales + Marketing Activation]
-    G --> H[Measure Impact]
-    H --> I[Optimise Workflow]
-    I --> B
-
-    PM[Programme Management Layer<br/>Plan • Governance • RAID • Dependencies • Reporting] --- B
-    PM --- D
-    PM --- F
-    PM --- H
-```
+![Programme operating model](assets/operating-model.svg)
 
 ## Workstreams
 
-1. **Customer Sourcing & Qualification** - build the right advocate/reference pipeline.
+1. **Customer Sourcing & Qualification** - build the right advocate and reference pipeline.
 2. **Peer-to-Peer Engagement** - coordinate credible customer-to-customer activity.
-3. **Content & Approval Pipeline** - capture insight, manage reviews and reduce approval friction.
-4. **Sales Enablement Activation** - turn approved evidence into usable field assets.
-5. **Insights & KPI Reporting** - convert activity into visible programme performance.
-6. **Governance & Operations** - integrated plan, RAID, decisions, actions and escalation.
+3. **Customer Story, Content & Approval Pipeline** - capture insight, manage reviews and reduce approval friction.
+4. **Video & Event Content Production** - coordinate production, scheduling, approvals and delivery of campaign and event assets.
+5. **Sales Enablement Activation** - turn approved customer evidence into usable field assets.
+6. **Insights & KPI Reporting** - convert activity into visible programme performance.
+7. **Governance & Operations** - maintain the integrated plan, RAID, decisions, actions and escalation.
 
 ## How I would manage it
 
@@ -84,11 +73,13 @@ My current CV shows experience across integrated planning, workstream coordinati
 
 ## Repository map
 
+## Repository map
+
 ```text
 .
 ├── README.md
-├── case-studies.md
 ├── role-alignment.md
+├── case-studies.md
 ├── 30-60-90-plan.md
 ├── assets/
 │   ├── dashboard-preview.png
@@ -100,7 +91,9 @@ My current CV shows experience across integrated planning, workstream coordinati
 ├── docs/
 │   ├── index.html
 │   ├── styles.css
-│   └── app.js
+│   ├── app.js
+│   └── data/
+│       └── programme_data.json
 ├── scripts/
 │   └── generate_status_pack.py
 └── outputs/
@@ -109,4 +102,4 @@ My current CV shows experience across integrated planning, workstream coordinati
 
 ---
 
-**Important:** This is an independent role-alignment case study. It does not represent the target organisation, Microsoft or any client programme, and contains no confidential information.
+**Note:** This is an independent programme management case study using illustrative data. It contains no employer, client or commercially confidential information.
