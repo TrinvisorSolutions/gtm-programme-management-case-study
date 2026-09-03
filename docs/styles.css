@@ -373,7 +373,7 @@ h2 {
 }
 
 .workstream {
-  padding: 15px 0;
+  padding: 19px 0;
   border-bottom: 1px solid #142b45;
 }
 
@@ -390,14 +390,14 @@ h2 {
 
 .workstream-head strong {
   display: block;
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .workstream-head small {
   display: block;
-  margin-top: 4px;
+  margin-top: 5px;
   color: var(--muted);
-  font-size: 9px;
+  font-size: 10px;
 }
 
 .status {
@@ -438,15 +438,15 @@ h2 {
   display: flex;
   justify-content: space-between;
   gap: 10px;
-  margin-top: 7px;
+  margin-top: 8px;
   color: #7188a5;
-  font-size: 9px;
+  font-size: 10px;
 }
 
 .dependency {
-  margin-top: 5px;
+  margin-top: 7px;
   color: #536f90;
-  font-size: 9px;
+  font-size: 10px;
 }
 
 .raid-table-wrap {
@@ -456,7 +456,7 @@ h2 {
 .raid-table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 10px;
+  font-size: 11px;
 }
 
 .raid-table th {
@@ -477,17 +477,17 @@ h2 {
 .raid-table td strong {
   display: block;
   color: #e5edf7;
-  font-size: 10px;
-  line-height: 1.4;
+  font-size: 11px;
+  line-height: 1.45;
 }
 
 .raid-table td small {
   display: block;
-  max-width: 430px;
-  margin-top: 5px;
+  max-width: 520px;
+  margin-top: 6px;
   color: #6f87a4;
-  font-size: 9px;
-  line-height: 1.4;
+  font-size: 10px;
+  line-height: 1.45;
 }
 
 .milestone {
@@ -529,14 +529,14 @@ h2 {
 
 .milestone strong {
   display: block;
-  font-size: 10px;
+  font-size: 11px;
 }
 
 .milestone small {
   display: block;
-  margin-top: 3px;
+  margin-top: 4px;
   color: #7088a5;
-  font-size: 9px;
+  font-size: 10px;
 }
 
 .milestone > span {
