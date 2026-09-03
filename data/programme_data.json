@@ -14,7 +14,6 @@
   "video_event_assets_in_production": 5,
   "event_campaign_activations": 3,
   "stakeholder_actions_overdue": 3
-}
       },
   "workstreams": [
   {
@@ -73,8 +72,6 @@
     "next": "Close ageing actions",
     "dependency": "Workstream owners"
   }
-
-    }
   ],
   "risks": [
     {
